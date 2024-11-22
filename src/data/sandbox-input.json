@@ -1,0 +1,3609 @@
+{
+  "id": 874,
+  "name": "Demo template 1",
+  "work_orders": 0,
+  "created": {
+    "utc": "2024-11-22 14:28:43"
+  },
+  "updated": {
+    "utc": "2024-11-22 14:33:07"
+  },
+  "default": false,
+  "company": {
+    "id": 1037,
+    "name": "(SE Demo Account) - AT SE Skywalker Systems"
+  },
+  "actions": [
+    "edit",
+    "copy",
+    "create_work_order",
+    "delete",
+    "show_client_name",
+    "show_project_name",
+    "show_template_name",
+    "show_service_contract",
+    "show_networks",
+    "set_network",
+    "require_gps",
+    "service_types",
+    "can_change_network"
+  ],
+  "client": {
+    "id": 15851,
+    "name": "ACME, Inc"
+  },
+  "project": {
+    "id": 914,
+    "name": "New Install 2"
+  },
+  "author": {
+    "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/profile_image/1068-5d792b11819b8.png",
+    "id": 1068,
+    "first_name": "Field Nation",
+    "last_name": "Support",
+    "email": "se2@at-test.com",
+    "phone": "+18775734353"
+  },
+  "data": {
+    "_v": 3,
+    "attachments": {
+      "metadata": {
+        "total": 1,
+        "per_page": 1,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "type": "slot",
+          "results": []
+        },
+        {
+          "type": "document",
+          "id": 1,
+          "results": [
+            {
+              "id": 4580,
+              "author": {
+                "id": 1068,
+                "first_name": "Field Nation",
+                "last_name": "Support",
+                "phone": "+18775734353"
+              },
+              "created": {
+                "utc": "2024-11-22 14:28:30",
+                "local": {
+                  "date": "2024-11-22",
+                  "time": "09:28:30"
+                }
+              },
+              "file": {
+                "mime": "image/jpeg",
+                "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/document_image_thumb/company-1037/docs_4580_4587.jpg?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372127&Signature=sr2r9HF2s%2B51WoPzCyr%2FWxJg5to%3D",
+                "name": "crying cod catto.jpg",
+                "size_bytes": 41013,
+                "link": "https://s3.amazonaws.com/dev.fieldnation/documents/company-1037/docs_4580_4587.jpg?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372127&Signature=FbvdJDXQXxuh9f4tVHJlC3dObNU%3D",
+                "type": "file",
+                "icon": "icon-picture"
+              },
+              "show_before_assignment": false,
+              "task": {
+                "id": 0
+              },
+              "notes": "",
+              "actions": [
+                "visibility",
+                "make_public",
+                "delete",
+                "notes",
+                "view"
+              ],
+              "time_zone": {
+                "short": "EST"
+              }
+            },
+            {
+              "id": 4085,
+              "author": {
+                "id": 1231,
+                "first_name": "Integration",
+                "last_name": "User",
+                "phone": ""
+              },
+              "created": {
+                "utc": "2024-07-16 19:19:42",
+                "local": {
+                  "date": "2024-07-16",
+                  "time": "15:19:42"
+                }
+              },
+              "file": {
+                "mime": "image/png",
+                "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/document_image_thumb/company-1037/docs_4085_4092.png?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372386&Signature=UtOII273GhMmtoolQsI9H5aA2bA%3D",
+                "name": "badge_example_2.png",
+                "size_bytes": 93852,
+                "link": "https://s3.amazonaws.com/dev.fieldnation/documents/company-1037/docs_4085_4092.png?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372386&Signature=w805cyhvK4F0uDCF0NXHDTll0lo%3D",
+                "type": "file",
+                "icon": "icon-picture"
+              },
+              "show_before_assignment": false,
+              "task": {
+                "id": 0
+              },
+              "notes": "",
+              "actions": [
+                "visibility",
+                "make_public",
+                "delete",
+                "notes",
+                "view"
+              ],
+              "time_zone": {
+                "short": "EDT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "tasks": {
+      "results": [
+        {
+          "alerts": [],
+          "id": 5,
+          "type": {
+            "id": 7
+          },
+          "group": {
+            "id": "post"
+          },
+          "description": "",
+          "label": "",
+          "email": "",
+          "phone": "",
+          "custom_field": {
+            "id": 285,
+            "name": "Site Result"
+          },
+          "order": 1
+        },
+        {
+          "alerts": [],
+          "id": 4,
+          "type": {
+            "id": 4
+          },
+          "group": {
+            "id": "post"
+          },
+          "description": "",
+          "label": "Check out",
+          "order": 2
+        },
+        {
+          "alerts": [],
+          "id": 2,
+          "type": {
+            "id": 2
+          },
+          "group": {
+            "id": "post"
+          },
+          "description": "",
+          "label": "Enter close out notes",
+          "order": 3
+        },
+        {
+          "alerts": [],
+          "id": 3,
+          "type": {
+            "id": 3
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "Check in",
+          "order": 4
+        },
+        {
+          "alerts": [],
+          "id": 6,
+          "type": {
+            "id": 6
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "BEFORE state of job site",
+          "email": "",
+          "phone": "",
+          "order": 5
+        },
+        {
+          "alerts": [],
+          "id": 7,
+          "type": {
+            "id": 10
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "Install equipment as specified in attached manual",
+          "email": "",
+          "phone": "",
+          "order": 6
+        },
+        {
+          "alerts": [],
+          "id": 8,
+          "type": {
+            "id": 8
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "testing connections with NOC",
+          "email": "",
+          "phone": "866-123-3214",
+          "order": 7
+        },
+        {
+          "alerts": [],
+          "id": 9,
+          "type": {
+            "id": 11
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "On-Site Manager",
+          "email": "",
+          "phone": "",
+          "order": 8
+        },
+        {
+          "alerts": [],
+          "id": 1,
+          "type": {
+            "id": 1
+          },
+          "group": {
+            "id": "prep"
+          },
+          "description": "",
+          "label": "",
+          "order": 9
+        }
+      ]
+    },
+    "custom_fields": {
+      "results": [
+        {
+          "id": 1,
+          "name": "General",
+          "role": "assigned_provider",
+          "metadata": {
+            "total": 8,
+            "per_page": 8,
+            "pages": 1,
+            "page": 1
+          },
+          "results": [
+            {
+              "id": 285,
+              "name": "Site Result",
+              "tip": "Select an option before leaving site",
+              "type": "predefined",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [
+                "Install Successful",
+                "Revisit required - missing materials",
+                "Site Not Ready"
+              ],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": true,
+                  "client": {
+                    "id": 1038
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": true,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "d475d1a656d7008d8aa0d8ef9abc6df229a99b78",
+              "value": "Install Successful",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1245,
+              "name": "Checkin/Out Contact",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "255de3bfaae4d7275b85fc7fde9e616af690f550",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1246,
+              "name": "Customer POC Checkin/out Contact",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "8ecaf3d48cb7ef9ebb7a2f8e3848f19ae961c61e",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1247,
+              "name": "Details of Work Performed",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "aa181769c45346414103e2bf9131b93dd50ecf64",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1244,
+              "name": "Parts Received",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "95be7e303361eaa2059dd181f1224f0ecb378d5a",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1243,
+              "name": "Parts Used",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "8612be7efbd0640c4ec79ee54627fd14fe4814bc",
+              "value": "Routers",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1242,
+              "name": "Travel End",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "7c8b29508613196e942299661b7abfece2f96e1e",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            },
+            {
+              "id": 1241,
+              "name": "Travel Start",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "ccb21b18236e451ee7e3284af7c4c1fd4e7abe7b",
+              "section": "General",
+              "category": "General",
+              "role": "assigned_provider"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "General",
+          "role": "buyer",
+          "metadata": {
+            "total": 14,
+            "per_page": 14,
+            "pages": 1,
+            "page": 1
+          },
+          "results": [
+            {
+              "id": 755,
+              "name": "Region",
+              "tip": "Enter the work group this work order is for",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 1,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 547
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 548
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 654
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 674
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 859
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 866
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 874
+                  }
+                }
+              ],
+              "correlation_id": "e40d591797bfe931928bf9a8ba471ca4450a4474",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 343,
+              "name": "Salesforce ID",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 1,
+              "flags": ["show_in_header"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 189
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 547
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 548
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 654
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 674
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 679
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 859
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 866
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 874
+                  }
+                }
+              ],
+              "correlation_id": "9d9f53451f186e1b4c5f14213f3da12ae1c81a74",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 757,
+              "name": "Site ID",
+              "tip": "",
+              "type": "text",
+              "required": 1,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 1,
+              "flags": ["hide_from_tech", "required"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 547
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 548
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 654
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 674
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 859
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 866
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 874
+                  }
+                }
+              ],
+              "correlation_id": "0fb030c80f6e1c9d3f1c3212bf83c4d5b2455293",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 794,
+              "name": "Market/Client",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "031e9e2275aa0b6a2d1b3065539baeb27447d3bd",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 355,
+              "name": "Client PO #",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "e36c6a562a55e4b26aca8ed40e5531aa91fdbc69",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1378,
+              "name": "Created Date",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "correlation_id": "954d2116de97385c59f2aa08078925e42ba677bd",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1300,
+              "name": "Jobaer Test",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 1,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech", "unique"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "ea4d1414c7494a677f5c403ee3b95e90b87df794",
+              "value": "123",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1189,
+              "name": "Misc Checkbox",
+              "tip": "",
+              "type": "predefined",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": ["true", "false"],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "f8153da28d8aff9771fe6b86426cb758c9ee3466",
+              "value": "true",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1154,
+              "name": "Parent ID",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "correlation_id": "7935d5fcef4701ae0da9d5c4f21161edf72eeca2",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1327,
+              "name": "Provider 1",
+              "tip": "",
+              "type": "numeric",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "correlation_id": "b6b4e56e42c053363a61abd425dd93fc9ec0b885",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1328,
+              "name": "Provider 2",
+              "tip": "",
+              "type": "numeric",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "correlation_id": "4dd4bdfcddb5a27fa88f6954dcc8f661518e5f5e",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1329,
+              "name": "Provider 3",
+              "tip": "",
+              "type": "numeric",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "correlation_id": "fe6d49b211c259ffd59f972f5a51cf13b71cff4a",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1330,
+              "name": "Reassigned WO",
+              "tip": "",
+              "type": "predefined",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": ["No", "Yes"],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "correlation_id": "12a6bafca8f5c3edbfec1479fa834a6cdf098d29",
+              "value": "Yes",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            },
+            {
+              "id": 1366,
+              "name": "Sabit WO",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "correlation_id": "2a1f6cd88568e05431c247afb49898409b59d781",
+              "section": "General",
+              "category": "General",
+              "role": "buyer"
+            }
+          ]
+        }
+      ]
+    },
+    "_no_model_update": "1",
+    "title": "Simple Rack and Stack | All Materials supplied | 2 hours onsite",
+    "type_of_work": {
+      "id": 65,
+      "name": "CCTV / Alarm Systems",
+      "idv4": 146,
+      "self_reported": 1
+    },
+    "client": {
+      "id": 15851,
+      "name": "ACME, Inc"
+    },
+    "project": {
+      "id": 914,
+      "name": "New Install 2"
+    },
+    "template": {
+      "id": 866
+    },
+    "service_contract": [],
+    "team": {
+      "id": 0
+    },
+    "service_types": [
+      {
+        "value": 493,
+        "label": ""
+      }
+    ],
+    "additional_type_of_works": [],
+    "site_device": [],
+    "equipments": [],
+    "networks": [
+      {
+        "value": 88,
+        "label": ""
+      }
+    ],
+    "printable": true,
+    "allow_counter_offers": true,
+    "require_gps": false,
+    "w2": false,
+    "manager": {
+      "id": 1068,
+      "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/profile_image/1068-5d792b11819b8.png"
+    },
+    "contacts": {
+      "metadata": {
+        "total": 1,
+        "per_page": 1,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [],
+      "actions": ["edit"],
+      "correlation_id": "c9c898c4684be6c30f1bf24b13b30c807d19e15a"
+    },
+    "description": {
+      "html": "<p>%description.html%</p><p><br></p><p><strong>DRESS CODE:&nbsp;</strong>No denim; No athletic shoes;&nbsp;No hats or baseball caps; only collared shirts without business logos are allowed.</p><p><strong><u>OVERVIEW</u></strong></p><p>On this work order you are required to successfully complete the following:</p><ul><li>Rack and stack server&nbsp;components</li><li>Connect all components via the supplied patch cables</li><li>Upload all required deliverables to this work order and enter your closing notes</li></ul><p><strong><u>EXPECTATIONS/REQUIREMENTS</u></strong></p><ul><li>Ensure timely arrival</li><li>Report to site with all listed required tools</li><li>Dress code - polo shirt, jeans and close-toed shoes</li><li>Covid safe PPE and work behavior expected onsite at all times</li></ul><p><strong><u>ONSITE INSTRUCTIONS</u></strong></p><p><u>﻿</u>%description.html%</p><ul><li>Contact POC listed on work order upon arrival Phone Number is&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>&nbsp;877-573-4353</del></span>&nbsp;(ext-1)</li><li>Locate installation materials and take inventory before beginning work</li><li>Test ports for installation to ensure they are active</li><li>Install components and complete connections leaving a 10' service loop</li><li>Configure IP Addresses on each of the installed components</li><li>Work with NOC to ensure all installed components are visible and trouble shoot as necessary</li><li>Label each connection with label maker</li><li>Clean all packaging waste</li></ul><p><strong><u>ESCALATIONS</u></strong></p><ul><li><strong>Equipment Hardware Issues</strong>: Wrong equipment shipped; Shipping Damage call Dave at&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>877-573-4353</del></span>&nbsp;</li><li><strong>Equipment Access Issues</strong>: Incorrect I.P.; Incorrect Password call NOC and ask for Mark&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>877-573-4354</del></span></li><li><strong>Site Access Issues:&nbsp;&nbsp;</strong>Client not allowing access to servers, call James immediately at&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>877-573-4355</del></span><strong>&nbsp;(DO NOT DISCUSS WITH END USER)</strong></li></ul>"
+    },
+    "confidential": {
+      "html": ""
+    },
+    "location": {
+      "mode": "custom",
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "",
+      "type": 1,
+      "saved_location": {
+        "id": 0
+      }
+    },
+    "pay": {
+      "type": "fixed",
+      "hours": 3,
+      "base": {
+        "units": 1,
+        "amount": 50
+      },
+      "additional": {
+        "units": 0,
+        "amount": 0
+      },
+      "finance": {
+        "id": 33
+      },
+      "funding": [
+        {
+          "id": 0,
+          "name": "Pre-fund",
+          "amount": 0,
+          "custom_name": "Pre-fund | Available: $0.00"
+        },
+        {
+          "id": 75,
+          "name": "Pre-Fund Account 3",
+          "amount": 0,
+          "custom_name": "Pre-Fund Account 3 | Available: $0.00",
+          "is_default": false
+        },
+        {
+          "id": 74,
+          "name": "Pre-Fund Account 2",
+          "amount": 0,
+          "custom_name": "Pre-Fund Account 2 | Available: $0.00",
+          "is_default": false
+        },
+        {
+          "id": 39,
+          "name": "Demo LOC",
+          "amount": 6923.7,
+          "custom_name": "Demo LOC | Available: $6,923.70",
+          "is_default": false
+        },
+        {
+          "id": 33,
+          "name": "Net 14 ACH - Push CPT  - Due on receipt ",
+          "amount": 970140.85,
+          "custom_name": "Net 14 ACH - Push CPT  - Due on receipt  | Available: $970,140.85",
+          "is_default": true
+        }
+      ],
+      "bonuses": {
+        "actions": [],
+        "metadata": {
+          "total": 3,
+          "page": 1,
+          "pages": 1,
+          "per_page": 25,
+          "columns": "name:175,modifier:175,type:175,description:175,charged_id:175,bonus_id:175",
+          "view": "list",
+          "sort": "",
+          "order": "asc",
+          "list": "bonuses",
+          "company_columns": {
+            "actions": ["add", "edit", "delete"]
+          },
+          "default_columns": "bonus_id:175,modifier:175,type:175,name:175,description:175",
+          "available_columns": [
+            {
+              "group": "Json",
+              "items": [
+                {
+                  "id": "charged_id",
+                  "label": "Charged Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "bonus_id",
+                  "label": "Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "modifier",
+                  "label": "Modifier",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "name",
+                  "label": "Name",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "type",
+                  "label": "Type",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                }
+              ]
+            }
+          ],
+          "available_filters": [
+            {
+              "id": "bonus_id",
+              "label": "Id",
+              "name": "Id",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "client",
+              "label": "Client",
+              "name": "Client",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "project",
+              "label": "Project",
+              "name": "Project",
+              "type": "",
+              "section": 0
+            }
+          ]
+        },
+        "params": [],
+        "lists": [
+          {
+            "id": "bonuses",
+            "label": "Bonuses",
+            "empty_message": "There are no results to display.",
+            "selected": true,
+            "actions": [],
+            "custom_tab_id": null,
+            "count": -1
+          }
+        ],
+        "f_client": "15851",
+        "fs_client": true,
+        "f_project": "914",
+        "fs_project": true,
+        "results": [
+          {
+            "id": 19,
+            "name": "Completion of WO",
+            "type": "Fixed",
+            "modifier": "20",
+            "description": "Add bonus when wo in completed within the timeframe on wo",
+            "amount": "$20.00",
+            "selected": false,
+            "charged_id": 0
+          },
+          {
+            "id": 13,
+            "name": "Installation bonus",
+            "type": "Percent",
+            "modifier": "5",
+            "description": "Apply 5% of work order labor for experienced tech.",
+            "amount": "5.00%",
+            "selected": false,
+            "charged_id": 0
+          },
+          {
+            "id": 12,
+            "name": "Training bonus",
+            "type": "Fixed",
+            "modifier": "50",
+            "description": "Apply only for first time techs",
+            "amount": "$50.00",
+            "selected": false,
+            "charged_id": 0
+          }
+        ],
+        "correlation_id": "bonuses"
+      },
+      "penalties": {
+        "actions": [],
+        "metadata": {
+          "total": 1,
+          "page": 1,
+          "pages": 1,
+          "per_page": 25,
+          "columns": "name:175,modifier:175,type:175,description:175,charged_id:175,penalty_id:175",
+          "view": "list",
+          "sort": "",
+          "order": "asc",
+          "list": "penalties",
+          "company_columns": {
+            "actions": ["add", "edit", "delete"]
+          },
+          "default_columns": "penalty_id:175,modifier:175,type:175,name:175,description:175",
+          "available_columns": [
+            {
+              "group": "Json",
+              "items": [
+                {
+                  "id": "charged_id",
+                  "label": "Charged Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "penalty_id",
+                  "label": "Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "modifier",
+                  "label": "Modifier",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "name",
+                  "label": "Name",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "type",
+                  "label": "Type",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                }
+              ]
+            }
+          ],
+          "available_filters": [
+            {
+              "id": "penalty_id",
+              "label": "Id",
+              "name": "Id",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "client",
+              "label": "Client",
+              "name": "Client",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "project",
+              "label": "Project",
+              "name": "Project",
+              "type": "",
+              "section": 0
+            }
+          ]
+        },
+        "params": [],
+        "lists": [
+          {
+            "id": "penalties",
+            "label": "Penalties",
+            "empty_message": "There are no results to display.",
+            "selected": true,
+            "actions": [],
+            "custom_tab_id": null,
+            "count": -1
+          }
+        ],
+        "f_client": "15851",
+        "fs_client": true,
+        "f_project": "914",
+        "fs_project": true,
+        "results": [
+          {
+            "id": 40,
+            "name": "Testing",
+            "type": "Fixed",
+            "modifier": "10",
+            "description": "Not completed correctly",
+            "amount": "$10.00",
+            "selected": false,
+            "charged_id": 0
+          }
+        ],
+        "correlation_id": "penalties"
+      },
+      "expenses": {
+        "results": []
+      },
+      "total": 50,
+      "calculated_total": {
+        "total": {
+          "min": 50,
+          "max": 50
+        }
+      },
+      "range": {
+        "min": 50,
+        "max": 50
+      },
+      "actions": ["edit"],
+      "minimum_payment": 20,
+      "correlation_id": "e63dbfcf45edc018993036a4aa2dfc65a760e5d1"
+    },
+    "survey_experiment": false,
+    "advanced_qualifications": true,
+    "actions": [],
+    "id": 866,
+    "name": "Simple",
+    "types_of_work": [
+      {
+        "id": 146,
+        "isPrimary": true,
+        "legacyTypeOfWorkId": 65,
+        "source": "self_reported"
+      }
+    ],
+    "special_skill": null,
+    "require_ontime": false,
+    "qualifications": {
+      "actions": ["add", "edit"],
+      "selection_rule": {
+        "id": 0,
+        "name": "",
+        "total_selection_rule": "8",
+        "actions": ["delete"]
+      }
+    },
+    "default": false,
+    "company": {
+      "id": 1037,
+      "name": "(SE Demo Account) - AT SE Skywalker Systems"
+    },
+    "correlation_id": "969cd7fdfacba7163a78168a53ba6a108f82c81e",
+    "service_types_legacy": [
+      {
+        "value": 76,
+        "label": "Installation",
+        "id": 76,
+        "name": "Installation"
+      }
+    ],
+    "experiment_type": "5",
+    "tab": "details",
+    "template_name": "Demo template 1",
+    "skills": [],
+    "schedule": {
+      "service_window": {
+        "mode": "exact",
+        "start": {
+          "local": {
+            "date": "2024-11-25",
+            "time": "14:27"
+          },
+          "utc": "2024-11-25 14:27"
+        },
+        "end": {
+          "local": {
+            "date": "",
+            "time": ""
+          },
+          "utc": ""
+        }
+      },
+      "relative": {
+        "relative_schedule_date": "+1 weekday",
+        "mode": "exact"
+      }
+    },
+    "has_qualifications": 0
+  },
+  "v3_pay_type": "fixed",
+  "v2": {
+    "survey_experiment": false,
+    "advanced_qualifications": true,
+    "actions": [
+      "edit",
+      "copy",
+      "create_work_order",
+      "delete",
+      "show_client_name",
+      "show_project_name",
+      "show_template_name",
+      "show_service_contract",
+      "show_networks",
+      "set_network",
+      "require_gps",
+      "service_types",
+      "can_change_network"
+    ],
+    "id": 874,
+    "title": "Simple Rack and Stack | All Materials supplied | 2 hours onsite",
+    "name": "Demo template 1",
+    "client": {
+      "id": 15851,
+      "name": "ACME, Inc"
+    },
+    "project": {
+      "id": 914,
+      "name": "New Install 2"
+    },
+    "type_of_work": {
+      "id": 65,
+      "name": "CCTV / Alarm Systems",
+      "idv4": 146
+    },
+    "additional_type_of_works": [],
+    "types_of_work": [
+      {
+        "id": 146,
+        "isPrimary": true,
+        "legacyTypeOfWorkId": 65,
+        "source": "self_reported"
+      }
+    ],
+    "service_types": [
+      {
+        "value": 493,
+        "label": "Installation",
+        "id": 493,
+        "name": "Installation"
+      }
+    ],
+    "site_device": [],
+    "service_contract": {
+      "id": 0
+    },
+    "team": {
+      "id": 0
+    },
+    "printable": true,
+    "require_gps": false,
+    "allow_counter_offers": true,
+    "special_skill": null,
+    "equipments": [],
+    "networks": {
+      "metadata": {
+        "total": 1,
+        "per_page": 1,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "value": 88,
+          "label": "AT SE Skywalker (Sandbox)",
+          "id": 88,
+          "name": "AT SE Skywalker (Sandbox)",
+          "fn_process_payment": true
+        }
+      ]
+    },
+    "w2": false,
+    "smart_audit_rule_id": 0,
+    "require_ontime": false,
+    "manager": {
+      "id": 1068,
+      "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/profile_image/1068-5d792b11819b8.png"
+    },
+    "contacts": {
+      "metadata": {
+        "total": 1,
+        "per_page": 1,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "role": "Work Order Manager",
+          "name": "Field Nation Support",
+          "email": "se2@at-test.com",
+          "phone": "+18775734353",
+          "ext": "",
+          "notes": "",
+          "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/profile_image/1068-5d792b11819b8.png",
+          "actions": ["edit"],
+          "id": -2
+        }
+      ],
+      "actions": ["edit"],
+      "correlation_id": "79673e5f1d4a2f25ccdf88d7f906234c3ab5f84d"
+    },
+    "description": {
+      "html": "<p>%description.html%</p><p><br></p><p><strong>DRESS CODE:&nbsp;</strong>No denim; No athletic shoes;&nbsp;No hats or baseball caps; only collared shirts without business logos are allowed.</p><p><strong><u>OVERVIEW</u></strong></p><p>On this work order you are required to successfully complete the following:</p><ul><li>Rack and stack server&nbsp;components</li><li>Connect all components via the supplied patch cables</li><li>Upload all required deliverables to this work order and enter your closing notes</li></ul><p><strong><u>EXPECTATIONS/REQUIREMENTS</u></strong></p><ul><li>Ensure timely arrival</li><li>Report to site with all listed required tools</li><li>Dress code - polo shirt, jeans and close-toed shoes</li><li>Covid safe PPE and work behavior expected onsite at all times</li></ul><p><strong><u>ONSITE INSTRUCTIONS</u></strong></p><p><u>﻿</u>%description.html%</p><ul><li>Contact POC listed on work order upon arrival Phone Number is&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>&nbsp;877-573-4353</del></span>&nbsp;(ext-1)</li><li>Locate installation materials and take inventory before beginning work</li><li>Test ports for installation to ensure they are active</li><li>Install components and complete connections leaving a 10' service loop</li><li>Configure IP Addresses on each of the installed components</li><li>Work with NOC to ensure all installed components are visible and trouble shoot as necessary</li><li>Label each connection with label maker</li><li>Clean all packaging waste</li></ul><p><strong><u>ESCALATIONS</u></strong></p><ul><li><strong>Equipment Hardware Issues</strong>: Wrong equipment shipped; Shipping Damage call Dave at&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>877-573-4353</del></span>&nbsp;</li><li><strong>Equipment Access Issues</strong>: Incorrect I.P.; Incorrect Password call NOC and ask for Mark&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>877-573-4354</del></span></li><li><strong>Site Access Issues:&nbsp;&nbsp;</strong>Client not allowing access to servers, call James immediately at&nbsp;<span style=\"color: rgb(255, 255, 255);\"><del>877-573-4355</del></span><strong>&nbsp;(DO NOT DISCUSS WITH END USER)</strong></li></ul>"
+    },
+    "confidential": {
+      "html": ""
+    },
+    "attachments": {
+      "metadata": {
+        "total": 1,
+        "per_page": 1,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "id": 1,
+          "name": "Documents",
+          "type": "document",
+          "actions": ["upload"],
+          "metadata": {
+            "total": 2,
+            "per_page": 2,
+            "pages": 1,
+            "page": 1
+          },
+          "results": [
+            {
+              "id": 4580,
+              "author": {
+                "id": 1068,
+                "first_name": "Field Nation",
+                "last_name": "Support",
+                "phone": "+18775734353"
+              },
+              "created": {
+                "utc": "2024-11-22 14:28:30",
+                "local": {
+                  "date": "2024-11-22",
+                  "time": "09:28:30"
+                }
+              },
+              "file": {
+                "mime": "image/jpeg",
+                "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/document_image_thumb/company-1037/docs_4580_4587.jpg?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372396&Signature=5YKWAK%2FpeiureSySeatnUnsFOOg%3D",
+                "name": "crying cod catto.jpg",
+                "size_bytes": 41013,
+                "link": "https://s3.amazonaws.com/dev.fieldnation/documents/company-1037/docs_4580_4587.jpg?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372396&Signature=eLeyAZCPMz3wSRSmsM99vR56xic%3D",
+                "type": "file",
+                "icon": "icon-picture"
+              },
+              "show_before_assignment": false,
+              "task": {
+                "id": 0
+              },
+              "notes": "",
+              "actions": [
+                "visibility",
+                "make_public",
+                "delete",
+                "notes",
+                "view"
+              ],
+              "time_zone": {
+                "short": "EST"
+              }
+            },
+            {
+              "id": 4085,
+              "author": {
+                "id": 1231,
+                "first_name": "Integration",
+                "last_name": "User",
+                "phone": ""
+              },
+              "created": {
+                "utc": "2024-07-16 19:19:42",
+                "local": {
+                  "date": "2024-07-16",
+                  "time": "15:19:42"
+                }
+              },
+              "file": {
+                "mime": "image/png",
+                "thumbnail": "https://s3.amazonaws.com/dev.fieldnation/document_image_thumb/company-1037/docs_4085_4092.png?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372396&Signature=4yblhHxw67Bw19b4pfmimjsrgQI%3D",
+                "name": "badge_example_2.png",
+                "size_bytes": 93852,
+                "link": "https://s3.amazonaws.com/dev.fieldnation/documents/company-1037/docs_4085_4092.png?AWSAccessKeyId=AKIAWPC4BGCUMYCCWGZG&Expires=1732372396&Signature=d9CWmYA7bUjFVxWamlyAIGAASzE%3D",
+                "type": "file",
+                "icon": "icon-picture"
+              },
+              "show_before_assignment": false,
+              "task": {
+                "id": 0
+              },
+              "notes": "",
+              "actions": [
+                "visibility",
+                "make_public",
+                "delete",
+                "notes",
+                "view"
+              ],
+              "time_zone": {
+                "short": "EDT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "tasks": {
+      "metadata": {
+        "total": 9,
+        "per_page": 9,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "alerts": [],
+          "id": 5,
+          "type": {
+            "id": 7
+          },
+          "group": {
+            "id": "post"
+          },
+          "description": "",
+          "label": "",
+          "email": "",
+          "phone": "",
+          "custom_field": {
+            "id": 285,
+            "name": "Site Result"
+          },
+          "order": 1,
+          "actions": ["edit", "delete"]
+        },
+        {
+          "alerts": [],
+          "id": 4,
+          "type": {
+            "id": 4
+          },
+          "group": {
+            "id": "post"
+          },
+          "description": "",
+          "label": "Check out",
+          "order": 2,
+          "actions": []
+        },
+        {
+          "alerts": [],
+          "id": 2,
+          "type": {
+            "id": 2
+          },
+          "group": {
+            "id": "post"
+          },
+          "description": "",
+          "label": "Enter close out notes",
+          "order": 3,
+          "actions": []
+        },
+        {
+          "alerts": [],
+          "id": 3,
+          "type": {
+            "id": 3
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "Check in",
+          "order": 4,
+          "actions": []
+        },
+        {
+          "alerts": [],
+          "id": 6,
+          "type": {
+            "id": 6
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "BEFORE state of job site",
+          "email": "",
+          "phone": "",
+          "order": 5,
+          "actions": ["edit", "delete"]
+        },
+        {
+          "alerts": [],
+          "id": 7,
+          "type": {
+            "id": 10
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "Install equipment as specified in attached manual",
+          "email": "",
+          "phone": "",
+          "order": 6,
+          "actions": ["edit", "delete"]
+        },
+        {
+          "alerts": [],
+          "id": 8,
+          "type": {
+            "id": 8
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "testing connections with NOC",
+          "email": "",
+          "phone": "866-123-3214",
+          "order": 7,
+          "actions": ["edit", "delete"]
+        },
+        {
+          "alerts": [],
+          "id": 9,
+          "type": {
+            "id": 11
+          },
+          "group": {
+            "id": "onsite"
+          },
+          "description": "",
+          "label": "On-Site Manager",
+          "email": "",
+          "phone": "",
+          "order": 8,
+          "actions": ["edit", "delete"]
+        },
+        {
+          "alerts": [],
+          "id": 1,
+          "type": {
+            "id": 1
+          },
+          "group": {
+            "id": "prep"
+          },
+          "description": "",
+          "label": "",
+          "order": 9,
+          "actions": []
+        }
+      ],
+      "actions": ["edit"],
+      "correlation_id": "d814d0a17c75b8bf7d3dd873baf9ca633e73893d"
+    },
+    "custom_fields": {
+      "metadata": {
+        "total": 2,
+        "per_page": 2,
+        "pages": 1,
+        "page": 1
+      },
+      "results": [
+        {
+          "id": 1,
+          "name": "General",
+          "role": "assigned_provider",
+          "metadata": {
+            "total": 8,
+            "per_page": 8,
+            "pages": 1,
+            "page": 1
+          },
+          "results": [
+            {
+              "id": 285,
+              "name": "Site Result",
+              "tip": "Select an option before leaving site",
+              "type": "predefined",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [
+                "Install Successful",
+                "Revisit required - missing materials",
+                "Site Not Ready"
+              ],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": true,
+                  "client": {
+                    "id": 1038
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": true,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "value": "Install Successful",
+              "category": "General"
+            },
+            {
+              "id": 1245,
+              "name": "Checkin/Out Contact",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1246,
+              "name": "Customer POC Checkin/out Contact",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1247,
+              "name": "Details of Work Performed",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1244,
+              "name": "Parts Received",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1243,
+              "name": "Parts Used",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "value": "Routers",
+              "category": "General"
+            },
+            {
+              "id": 1242,
+              "name": "Travel End",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1241,
+              "name": "Travel Start",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 1,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15851
+                  },
+                  "projects": [
+                    {
+                      "id": 914
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "General",
+          "role": "buyer",
+          "metadata": {
+            "total": 14,
+            "per_page": 14,
+            "pages": 1,
+            "page": 1
+          },
+          "results": [
+            {
+              "id": 755,
+              "name": "Region",
+              "tip": "Enter the work group this work order is for",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 1,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 547
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 548
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 654
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 674
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 859
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 866
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 874
+                  }
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 343,
+              "name": "Salesforce ID",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 1,
+              "flags": ["show_in_header"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 189
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 547
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 548
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 654
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 674
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 679
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 859
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 866
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 874
+                  }
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 757,
+              "name": "Site ID",
+              "tip": "",
+              "type": "text",
+              "required": 1,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 1,
+              "flags": ["hide_from_tech", "required"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 547
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 548
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 654
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 674
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 859
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 866
+                  }
+                },
+                {
+                  "type": "template",
+                  "template": {
+                    "id": 874
+                  }
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 794,
+              "name": "Market/Client",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 355,
+              "name": "Client PO #",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1378,
+              "name": "Created Date",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1300,
+              "name": "Jobaer Test",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 1,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech", "unique"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "value": "123",
+              "category": "General"
+            },
+            {
+              "id": 1189,
+              "name": "Misc Checkbox",
+              "tip": "",
+              "type": "predefined",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": ["true", "false"],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "value": "true",
+              "category": "General"
+            },
+            {
+              "id": 1154,
+              "name": "Parent ID",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 23452
+                  },
+                  "projects": [
+                    {
+                      "id": 1060
+                    }
+                  ]
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1327,
+              "name": "Provider 1",
+              "tip": "",
+              "type": "numeric",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1328,
+              "name": "Provider 2",
+              "tip": "",
+              "type": "numeric",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1329,
+              "name": "Provider 3",
+              "tip": "",
+              "type": "numeric",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "category": "General"
+            },
+            {
+              "id": 1330,
+              "name": "Reassigned WO",
+              "tip": "",
+              "type": "predefined",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": ["No", "Yes"],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "value": "Yes",
+              "category": "General"
+            },
+            {
+              "id": 1366,
+              "name": "Sabit WO",
+              "tip": "",
+              "type": "text",
+              "required": 0,
+              "internal": 0,
+              "unique": 0,
+              "for_tech": 0,
+              "actions": ["edit", "add"],
+              "admin_edit_only": 0,
+              "template": 0,
+              "flags": ["hide_from_tech"],
+              "dependency": {
+                "id": 0,
+                "value": "",
+                "operator": "equals"
+              },
+              "options": [],
+              "visibility": [
+                {
+                  "type": "company"
+                },
+                {
+                  "type": "client",
+                  "hidden": false,
+                  "client": {
+                    "id": 15834
+                  },
+                  "projects": []
+                }
+              ],
+              "category": "General"
+            }
+          ]
+        }
+      ],
+      "actions": []
+    },
+    "schedule": {
+      "service_window": {
+        "mode": "exact",
+        "start": {
+          "local": {
+            "date": "2024-11-25",
+            "time": "00:00:00"
+          },
+          "utc": "2024-11-25 06:00:00"
+        },
+        "end": {
+          "local": {
+            "date": "2024-11-25",
+            "time": "02:00:00"
+          },
+          "utc": "2024-11-25 08:00:00"
+        }
+      },
+      "relative": {
+        "relative_schedule_date": "+1 weekday",
+        "mode": "exact"
+      },
+      "time_zone": {
+        "name": "America/Chicago",
+        "id": "4",
+        "category": "America (North and Central)"
+      },
+      "actions": ["edit"],
+      "correlation_id": "7ea4223c0ebe28018685867ddf7d21c7c5f83cfa"
+    },
+    "pay": {
+      "type": "fixed",
+      "hours": 3,
+      "base": {
+        "units": 1,
+        "amount": 50
+      },
+      "additional": {
+        "units": 0,
+        "amount": 0
+      },
+      "finance": {
+        "id": 33
+      },
+      "funding": [
+        {
+          "id": 0,
+          "name": "Pre-fund",
+          "amount": 0,
+          "custom_name": "Pre-fund | Available: $0.00"
+        },
+        {
+          "id": 75,
+          "name": "Pre-Fund Account 3",
+          "amount": 0,
+          "custom_name": "Pre-Fund Account 3 | Available: $0.00",
+          "is_default": false
+        },
+        {
+          "id": 74,
+          "name": "Pre-Fund Account 2",
+          "amount": 0,
+          "custom_name": "Pre-Fund Account 2 | Available: $0.00",
+          "is_default": false
+        },
+        {
+          "id": 39,
+          "name": "Demo LOC",
+          "amount": 6923.7,
+          "custom_name": "Demo LOC | Available: $6,923.70",
+          "is_default": false
+        },
+        {
+          "id": 33,
+          "name": "Net 14 ACH - Push CPT  - Due on receipt ",
+          "amount": 970140.85,
+          "custom_name": "Net 14 ACH - Push CPT  - Due on receipt  | Available: $970,140.85",
+          "is_default": true
+        }
+      ],
+      "bonuses": {
+        "actions": [],
+        "metadata": {
+          "total": 3,
+          "page": 1,
+          "pages": 1,
+          "per_page": 25,
+          "columns": "name:175,modifier:175,type:175,description:175,charged_id:175,bonus_id:175",
+          "view": "list",
+          "sort": "",
+          "order": "asc",
+          "list": "bonuses",
+          "company_columns": {
+            "actions": ["add", "edit", "delete"]
+          },
+          "default_columns": "bonus_id:175,modifier:175,type:175,name:175,description:175",
+          "available_columns": [
+            {
+              "group": "Json",
+              "items": [
+                {
+                  "id": "charged_id",
+                  "label": "Charged Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "bonus_id",
+                  "label": "Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "modifier",
+                  "label": "Modifier",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "name",
+                  "label": "Name",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "type",
+                  "label": "Type",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                }
+              ]
+            }
+          ],
+          "available_filters": [
+            {
+              "id": "bonus_id",
+              "label": "Id",
+              "name": "Id",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "client",
+              "label": "Client",
+              "name": "Client",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "project",
+              "label": "Project",
+              "name": "Project",
+              "type": "",
+              "section": 0
+            }
+          ]
+        },
+        "params": [],
+        "lists": [
+          {
+            "id": "bonuses",
+            "label": "Bonuses",
+            "empty_message": "There are no results to display.",
+            "selected": true,
+            "actions": [],
+            "custom_tab_id": null,
+            "count": -1
+          }
+        ],
+        "f_client": "15851",
+        "fs_client": true,
+        "f_project": "914",
+        "fs_project": true,
+        "results": [
+          {
+            "id": 19,
+            "name": "Completion of WO",
+            "type": "Fixed",
+            "modifier": "20",
+            "description": "Add bonus when wo in completed within the timeframe on wo",
+            "amount": "$20.00",
+            "selected": false,
+            "charged_id": 0
+          },
+          {
+            "id": 13,
+            "name": "Installation bonus",
+            "type": "Percent",
+            "modifier": "5",
+            "description": "Apply 5% of work order labor for experienced tech.",
+            "amount": "5.00%",
+            "selected": false,
+            "charged_id": 0
+          },
+          {
+            "id": 12,
+            "name": "Training bonus",
+            "type": "Fixed",
+            "modifier": "50",
+            "description": "Apply only for first time techs",
+            "amount": "$50.00",
+            "selected": false,
+            "charged_id": 0
+          }
+        ],
+        "correlation_id": "bonuses"
+      },
+      "penalties": {
+        "actions": [],
+        "metadata": {
+          "total": 1,
+          "page": 1,
+          "pages": 1,
+          "per_page": 25,
+          "columns": "name:175,modifier:175,type:175,description:175,charged_id:175,penalty_id:175",
+          "view": "list",
+          "sort": "",
+          "order": "asc",
+          "list": "penalties",
+          "company_columns": {
+            "actions": ["add", "edit", "delete"]
+          },
+          "default_columns": "penalty_id:175,modifier:175,type:175,name:175,description:175",
+          "available_columns": [
+            {
+              "group": "Json",
+              "items": [
+                {
+                  "id": "charged_id",
+                  "label": "Charged Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "penalty_id",
+                  "label": "Id",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "modifier",
+                  "label": "Modifier",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                },
+                {
+                  "id": "name",
+                  "label": "Name",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": true,
+                  "sort_dir": "asc"
+                },
+                {
+                  "id": "type",
+                  "label": "Type",
+                  "group": "Json",
+                  "order": 100,
+                  "icon": "",
+                  "selected": true,
+                  "can_sort": false,
+                  "sort_dir": ""
+                }
+              ]
+            }
+          ],
+          "available_filters": [
+            {
+              "id": "penalty_id",
+              "label": "Id",
+              "name": "Id",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "client",
+              "label": "Client",
+              "name": "Client",
+              "type": "",
+              "section": 0
+            },
+            {
+              "id": "project",
+              "label": "Project",
+              "name": "Project",
+              "type": "",
+              "section": 0
+            }
+          ]
+        },
+        "params": [],
+        "lists": [
+          {
+            "id": "penalties",
+            "label": "Penalties",
+            "empty_message": "There are no results to display.",
+            "selected": true,
+            "actions": [],
+            "custom_tab_id": null,
+            "count": -1
+          }
+        ],
+        "f_client": "15851",
+        "fs_client": true,
+        "f_project": "914",
+        "fs_project": true,
+        "results": [
+          {
+            "id": 40,
+            "name": "Testing",
+            "type": "Fixed",
+            "modifier": "10",
+            "description": "Not completed correctly",
+            "amount": "$10.00",
+            "selected": false,
+            "charged_id": 0
+          }
+        ],
+        "correlation_id": "penalties"
+      },
+      "expenses": {
+        "results": []
+      },
+      "total": 50,
+      "calculated_total": {
+        "total": {
+          "min": 50,
+          "max": 50
+        }
+      },
+      "range": {
+        "min": 50,
+        "max": 50
+      },
+      "actions": ["edit"],
+      "minimum_payment": 20,
+      "correlation_id": "8892bd8b27a0ec2c1c405baaa8dcaac71e423c3d"
+    },
+    "qualifications": {
+      "actions": ["add", "edit"],
+      "selection_rule": {
+        "id": 0,
+        "name": "",
+        "total_selection_rule": "8",
+        "actions": ["delete"]
+      }
+    },
+    "default": false,
+    "company": {
+      "id": 1037,
+      "name": "(SE Demo Account) - AT SE Skywalker Systems"
+    },
+    "correlation_id": "25dd1ccf15f61a37e1baf26e79a30f419f6c31b8",
+    "service_types_legacy": [
+      {
+        "value": 76,
+        "label": "Installation",
+        "id": 76,
+        "name": "Installation"
+      }
+    ]
+  }
+}
