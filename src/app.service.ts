@@ -8,6 +8,10 @@ import * as obj1 from './data/sandbox-input.json';
 @Injectable()
 export class AppService {
   constructor() {
+    this.generateDiff();
+  }
+
+  generateDiff() {
     //Test data
     // let obj1 = {
     //   a: {
@@ -45,6 +49,8 @@ export class AppService {
       actionItem: 'Remove these properties from DTO.',
       extraProperties: this.checkDiffByProperties(obj2, obj1),
     });
+
+    return 'Report generated!'
   }
   outputToFile(filename: string, output: unknown) {
     // Construct the directory path
