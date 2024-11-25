@@ -1,6 +1,15 @@
 {
   "reportTitle": "Properties that is present in Sandbox but not in current-swagger-example: ",
   "actionItem": "Include this properties in DTO",
+  "actualIssues": [
+    "lists[0].id",
+    "lists[0].label",
+    "lists[0].empty_message",
+    "lists[0].selected",
+    "lists[0].actions[0]",
+    "lists[0].custom_tab_id",
+    "lists[0].count"
+  ],
   "missingProperties": [
     "actions[1]",
     "actions[2]",

@@ -41,6 +41,9 @@ export class AppService {
       reportTitle:
         'Properties that is present in Sandbox but not in current-swagger-example: ',
       actionItem: 'Include this properties in DTO',
+      actualIssues: this.filterItemsWithActualIssues(
+        this.checkDiffByProperties(obj1, obj2),
+      ),
       missingProperties: this.checkDiffByProperties(obj1, obj2),
     });
     this.outputToFile('to-remove-properties.json', {
@@ -50,7 +53,7 @@ export class AppService {
       extraProperties: this.checkDiffByProperties(obj2, obj1),
     });
 
-    return 'Report generated!'
+    return 'Report generated!';
   }
   outputToFile(filename: string, output: unknown) {
     // Construct the directory path
@@ -73,6 +76,38 @@ export class AppService {
     return differenceWith(keys1, keys2);
   }
 
+  // Safely skippable patterns for adding to the current DTO are:
+  // actions[] -> empty array
+  // results[1] -> any array index that is not 0.
+  toKeepItem(item: string) {
+    if (item.includes('[]')) {
+      return false;
+    } else if (item.includes('[')) {
+      let canKeep = true;
+      //find every single position of '[' and check it's next char is not equal ']' and check if the middle item is greater than 0 or not.
+      for (let i = 0; i < item.length; i++) {
+        if (item[i] == '[' && item[i + 1] != ']') {
+          //check the next digit only. It will work even if it's [10] or [22] or [1234] ...
+          if (item[i + 1] > '0') {
+            canKeep = false;
+            break;
+          }
+        }
+      }
+      return canKeep;
+    }
+    // console.log(toKeepItem('actions[]'));//false
+    // console.log(toKeepItem('results[33].name')); //false
+    // console.log(toKeepItem('metadata.available_columns[0].items[0].icon')); //true
+    // console.log(toKeepItem('metadata.available_columns[0].id')); //true
+    // console.log(toKeepItem('metadata.available_columns[0].items[1].icon')); //false
+
+    return true;
+  }
+
+  filterItemsWithActualIssues(items: Array<string>) {
+    return items.filter(this.toKeepItem);
+  }
   getHello(): string {
     return 'Hello World!';
   }
